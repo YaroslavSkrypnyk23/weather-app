@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="shortcut icon" href="./images/weather-fav-icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="reset.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="user__input">
+            <input type="text" id="input" placeholder="Введіть назву міста чи країни...">
+            <button type="submit" class="search-btn">Пошук</button>
+        </div>
+        <div class="weather__card">
+            <div class="weather__top top">
+                <div class="top__left">
+                    <h2 class="city__title">Seattle</h2>
+                    <p class="date">September 15 <br> Monday</p>
+                    <p class="temperature">25&deg;C</p>
+                    <p class="feels-like">Feels like 23 &deg;</p>
+                </div>
+                <div class="top-center">
+                    <img class="main__weather-img" src="./images/sunny-weather.png" alt="Weather condition icon">
+                    <p class="main__weather-text">cloudy</p>
+                </div>
+                <div class="top-right">
+                    <p class="sunrise">sunrise 7:00</p>
+                    <p class="sunset">sunset 19:20</p>
+                    <p class="huminidy">60%</p>
+                    <p class="wind-speed">10km/h</p>
+                    <p class="wind-dir">North-East</p>
+                    <p class="air-press">1023.0hPa</p>
+                </div>
+            </div>
+            <div class="weather__bottom">
+                <div class="weather__item daily">
+                    <img class="daily-img" src="./images/bottom-img/sunny-removebg-preview.png" alt="weather icon">
+                    <p class="daily-temp">+25&deg;</p>
+                    <p class="daily-day">Sunday</p>
+                </div>
+                <div class="weather__item daily">
+                    <img class="daily-img" src="./images/bottom-img/cloudy-removebg-preview.png" alt="weather icon">
+                    <p class="daily-temp">+25&deg;</p>
+                    <p class="daily-day">Monday</p>
+                </div>
+                <div class="weather__item daily">
+                    <img class="daily-img" src="./images/bottom-img/rainy-removebg-preview.png" alt="weather icon">
+                    <p class="daily-temp">+25&deg;</p>
+                    <p class="daily-day">Tuesday</p>
+                </div>
+                <div class="weather__item daily">
+                    <img class="daily-img" src="./images/bottom-img/heavy-rain-removebg-preview.png" alt="weather icon">
+                    <p class="daily-temp">+25&deg;</p>
+                    <p class="daily-day">Wednesday</p>
+                </div>
+                <div class="weather__item daily">
+                    <img class="daily-img" src="./images/bottom-img/snowy-removebg-preview.png" alt="weather icon">
+                    <p class="daily-temp">+25&deg;</p>
+                    <p class="daily-day">Thursday</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+    
+</body>
+
+</html>
